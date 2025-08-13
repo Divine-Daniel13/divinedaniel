@@ -1,13 +1,13 @@
 <?php 
 
 
-    require "./demo/partial/header/header.php";
+    require "./page/partial/header/index_header.php";
 
     
     require "./page/index.php";
 
 
-    require "./demo/partial/footer/footer.php";
+    require "./page/partial/footer/index_footer.php";
 
 
 ?>
