@@ -2,37 +2,39 @@
 <php lang="zxx">
 
 
-<!-- Mirrored from phpdemo.net/lendex/lendex/./../index.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Aug 2025 14:11:04 GMT -->
+<!-- Mirrored from phpdemo.net/lendex/lendex/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Aug 2025 14:11:04 GMT -->
 <head>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Lendex - Personal Portfolio Bootstrap Template</title>
-    <meta name="robots" content="no./../index, follow" />
+    <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="./../assets/images/favicon.ico" />
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" /> -->
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/logo.png" />
 
     <!-- CSS
     ============================================ -->
 
     <!-- Vendor CSS (Contain Bootstrap, Icon Fonts) -->
-    <!-- <link rel="stylesheet" href="./../assets/css/vendor/bootstrap.min.css" />
-    <link rel="stylesheet" href="./../assets/css/vendor/icofont.min.css" /> -->
+    <!-- <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/icofont.min.css" /> -->
 
     <!-- Plugin CSS (Global Plugins Files) -->
-    <!-- <link rel="stylesheet" href="./../assets/css/plugins/animate.css">
-    <link rel="stylesheet" href="./../assets/css/plugins/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./../assets/css/plugins/venobox.min.css" /> -->
+    <!-- <link rel="stylesheet" href="assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/venobox.min.css" /> -->
 
     <!-- Style CSS -->
-    <!-- <link rel="stylesheet" href="./../assets/css/style.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
     
     <!-- Minify Version -->
-    <link rel="stylesheet" href="./../assets/css/vendor/vendor.min.css">
-    <link rel="stylesheet" href="./../assets/css/plugins/plugins.min.css">
-    <link rel="stylesheet" href="./../assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
 
 </head>
 
@@ -46,44 +48,25 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col">
                             <!-- Start Header Logo -->
-                            <a href="./../index.php" class="header-logo">
-                                <img src="./../assets/images/logo/logo.png" alt="">
+                            <a href="index.php" class="header-logo">
+                                <img src="assets/images/logo/logo.png" alt="">
                             </a>
                             <!-- End Header Logo -->
                         </div>
                         <div class="col-auto">
                             <!-- Start Header Menu -->
                             <ul class="header-nav">
-                                <li><a href="./../index.php">Home</a></li>
-                                <li class="has-dropdown">
-                                    <a href="service-list.php">Service</a>
-                                    <ul class="submenu">
-                                        <li><a href="service-list.php">Services</a></li>
-                                        <li><a href="service-details.php">Service Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="blog-list.php">Blog</a>
-                                    <ul class="submenu">
-                                        <li><a href="blog-list.php">Blog List Full Width</a></li>
-                                        <li><a href="blog-list-sidebar-left.php">Blog List Left Sidebar</a></li>
-                                        <li><a href="blog-list-sidebar-right.php">Blog List Right Sidebar</a></li>
-                                        <li><a href="blog-details.php">Blog Details Full Width</a></li>
-                                        <li><a href="blog-details-sidebar-left.php">Blog Details Left Sidebar</a></li>
-                                        <li><a href="blog-details-sidebar-right.php">Blog Details Right Sidebar</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="#">Pages</a>
-                                    <ul class="submenu">
-                                        <li><a href="about.php">About Us</a></li>
-                                    <li><a href="project-list.php">Project</a></li>
-                                    <li><a href="project-details.php">Project Details</a></li>
-                                    <li><a href="faq.php">FAQ</a></li>
-                                    <li><a href="404-page.php">404 Page</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.php">Contact</a></li>
+
+                                <li><a href="index.php">Home</a></li>
+
+                                <li><a href="#services">Services</a></li>
+                                
+                                <li><a href="#works">Works</a></li>
+
+                                <li><a href="#testimonial">Testimonial</a></li>
+
+                                <li><a href="#contact">Contact</a></li>
+
                             </ul>
                             <!-- End Header Menu -->
                         </div>
@@ -104,7 +87,7 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col">
                         <div class="mobile-logo">
-                            <a href="./../index.php"><img src="./../assets/images/logo/logo.png" alt=""></a>
+                            <a href="index.php"><img src="assets/images/logo/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col">
@@ -131,34 +114,34 @@
                     <div class="offcanvas-menu">
                         <ul>
                             <li>
-                                <a href="./../index.php"><span>Home</span></a>
+                                <a href="index.php"><span>Home</span></a>
                             </li>
                             <li>
                                 <a href="#"><span>Services</span></a>
                                 <ul class="mobile-sub-menu">
-                                    <li><a href="service-list.php">Service List</a></li>
-                                    <li><a href="service-details.php">Service Details</a></li>
+                                    <li><a href="./demo/service-list.php">Service List</a></li>
+                                    <li><a href="./demo/service-details.php">Service Details</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="#"><span>Blog</span></a>
                                 <ul class="mobile-sub-menu">
-                                    <li><a href="blog-list.php">Blog List Full Width</a></li>
-                                    <li><a href="blog-list-sidebar-left.php">Blog List Left Sidebar</a></li>
-                                    <li><a href="blog-list-sidebar-right.php">Blog List Right Sidebar</a></li>
-                                    <li><a href="blog-details.php">Blog Details Full Width</a></li>
-                                    <li><a href="blog-details-sidebar-left.php">Blog Details Left Sidebar</a></li>
-                                    <li><a href="blog-details-sidebar-right.php">Blog Details Right Sidebar</a></li>
+                                    <li><a href="./demo/blog-list.php">Blog List Full Width</a></li>
+                                    <li><a href="./demo/blog-list-sidebar-left.php">Blog List Left Sidebar</a></li>
+                                    <li><a href="./demo/blog-list-sidebar-right.php">Blog List Right Sidebar</a></li>
+                                    <li><a href="./demo/blog-details.php">Blog Details Full Width</a></li>
+                                    <li><a href="./demo/blog-details-sidebar-left.php">Blog Details Left Sidebar</a></li>
+                                    <li><a href="./demo/blog-details-sidebar-right.php">Blog Details Right Sidebar</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="#"><span>Pages</span></a>
                                 <ul class="mobile-sub-menu">
-                                    <li><a href="about.php">About Us</a></li>
-                                    <li><a href="project-list.php">Project</a></li>
-                                    <li><a href="project-details.php">Project Details</a></li>
-                                    <li><a href="faq.php">FAQ</a></li>
-                                    <li><a href="404-page.php">404 Page</a></li>
+                                    <li><a href="./demo/about.php">About Us</a></li>
+                                    <li><a href="./demo/project-list.php">Project</a></li>
+                                    <li><a href="./demo/project-details.php">Project Details</a></li>
+                                    <li><a href="./demo/faq.php">FAQ</a></li>
+                                    <li><a href="./demo/404-page.php">404 Page</a></li>
                                 </ul>
                             </li>
                             <li>

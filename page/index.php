@@ -1,191 +1,4 @@
-<!DOCTYPE html>
-<html lang="zxx">
 
-
-<!-- Mirrored from htmldemo.net/lendex/lendex/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Aug 2025 14:11:04 GMT -->
-<head>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Lendex - Personal Portfolio Bootstrap Template</title>
-    <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
-
-    <!-- CSS
-    ============================================ -->
-
-    <!-- Vendor CSS (Contain Bootstrap, Icon Fonts) -->
-    <!-- <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/vendor/icofont.min.css" /> -->
-
-    <!-- Plugin CSS (Global Plugins Files) -->
-    <!-- <link rel="stylesheet" href="assets/css/plugins/animate.css">
-    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/venobox.min.css" /> -->
-
-    <!-- Style CSS -->
-    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
-    
-    <!-- Minify Version -->
-    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
-    <link rel="stylesheet" href="assets/css/style.min.css">
-
-</head>
-
-<body>
-
-    <main class="main-wrapper">
-        <!-- .....:::::: Start Header Section :::::.... -->
-        <header class="header-section sticky-header d-none d-lg-block">
-            <div class="header-wrapper">
-                <div class="container">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col">
-                            <!-- Start Header Logo -->
-                            <a href="index.html" class="header-logo">
-                                <img src="assets/images/logo/logo.png" alt="">
-                            </a>
-                            <!-- End Header Logo -->
-                        </div>
-                        <div class="col-auto">
-                            <!-- Start Header Menu -->
-                            <ul class="header-nav">
-                                <li><a href="index.html">Home</a></li>
-                                <li class="has-dropdown">
-                                    <a href="service-list.html">Service</a>
-                                    <ul class="submenu">
-                                        <li><a href="service-list.html">Services</a></li>
-                                        <li><a href="service-details.html">Service Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="blog-list.html">Blog</a>
-                                    <ul class="submenu">
-                                        <li><a href="blog-list.html">Blog List Full Width</a></li>
-                                        <li><a href="blog-list-sidebar-left.html">Blog List Left Sidebar</a></li>
-                                        <li><a href="blog-list-sidebar-right.html">Blog List Right Sidebar</a></li>
-                                        <li><a href="blog-details.html">Blog Details Full Width</a></li>
-                                        <li><a href="blog-details-sidebar-left.html">Blog Details Left Sidebar</a></li>
-                                        <li><a href="blog-details-sidebar-right.html">Blog Details Right Sidebar</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="#">Pages</a>
-                                    <ul class="submenu">
-                                        <li><a href="about.html">About Us</a></li>
-                                    <li><a href="project-list.html">Project</a></li>
-                                    <li><a href="project-details.html">Project Details</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="404-page.html">404 Page</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                            <!-- End Header Menu -->
-                        </div>
-                        <div class="col">
-                            <div class="header-btn-link text-end">
-                               <a href="contact.html" class="btn btn-sm btn-outline-one icon-space-left">Hire Me <i class="icofont-double-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- .....:::::: End Header Section :::::.... -->
-
-        <!-- .....:::::: Start Mobile Header Section :::::.... -->
-        <div class="mobile-header d-block d-lg-none">
-            <div class="container">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col">
-                        <div class="mobile-logo">
-                            <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="mobile-action-link text-end">
-                            <a href="#mobile-menu-offcanvas" class="offcanvas-toggle offside-menu"><i class="icofont-navigation-menu"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- .....:::::: Start MobileHeader Section :::::.... -->
-
-        <!--  Start Offcanvas Mobile Menu Section -->
-        <div id="mobile-menu-offcanvas" class="offcanvas offcanvas-rightside offcanvas-mobile-menu-section">
-            <!-- Start Offcanvas Header -->
-            <div class="offcanvas-header text-end">
-                <button class="offcanvas-close"><i class="icofont-close-line"></i></button>
-            </div> <!-- End Offcanvas Header -->
-            <!-- Start Offcanvas Mobile Menu Wrapper -->
-            <div class="offcanvas-mobile-menu-wrapper">
-                <!-- Start Mobile Menu  -->
-                <div class="mobile-menu-bottom">
-                    <!-- Start Mobile Menu Nav -->
-                    <div class="offcanvas-menu">
-                        <ul>
-                            <li>
-                                <a href="index.html"><span>Home</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Services</span></a>
-                                <ul class="mobile-sub-menu">
-                                    <li><a href="service-list.html">Service List</a></li>
-                                    <li><a href="service-details.html">Service Details</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#"><span>Blog</span></a>
-                                <ul class="mobile-sub-menu">
-                                    <li><a href="blog-list.html">Blog List Full Width</a></li>
-                                    <li><a href="blog-list-sidebar-left.html">Blog List Left Sidebar</a></li>
-                                    <li><a href="blog-list-sidebar-right.html">Blog List Right Sidebar</a></li>
-                                    <li><a href="blog-details.html">Blog Details Full Width</a></li>
-                                    <li><a href="blog-details-sidebar-left.html">Blog Details Left Sidebar</a></li>
-                                    <li><a href="blog-details-sidebar-right.html">Blog Details Right Sidebar</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#"><span>Pages</span></a>
-                                <ul class="mobile-sub-menu">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="project-list.html">Project</a></li>
-                                    <li><a href="project-details.html">Project Details</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="404-page.html">404 Page</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="contact.html"><span>Contact</span></a>
-                            </li>
-                        </ul>
-                    </div> <!-- End Mobile Menu Nav -->
-                </div> <!-- End Mobile Menu -->
-
-                <!-- Start Mobile contact Info -->
-                <div class="mobile-contact-info text-center">
-                    <ul class="social-link">
-                        <li><a target="_blank" href="https://example.com/"><i class="icofont-facebook"></i></a>
-                        </li>
-                        <li><a target="_blank" href="https://example.com/"><i class="icofont-twitter"></i></a>
-                        </li>
-                        <li><a target="_blank" href="https://example.com/"><i class="icofont-skype"></i></a></li>
-                    </ul>
-                </div>
-                <!-- End Mobile contact Info -->
-
-            </div> <!-- End Offcanvas Mobile Menu Wrapper -->
-        </div>
-        <!-- ...:::: End Offcanvas Mobile Menu Section:::... -->
-
-        <!-- Offcanvas Overlay -->
-        <div class="offcanvas-overlay"></div>
 
         <!-- ...::: Start Hero Section :::... -->
         <div class="hero-section section-dark-blue-bg">
@@ -195,8 +8,8 @@
                         <div class="col-xxl-7">
                             <div class="hero-content">
                                 <h3 class="title-big">Hello! I’m</h3>
-                                <h2 class="title-large">Mirta <span class="shape-mark">Akins</span></h2>
-                                <p>UI/UX Designer specializing in Shopify & Webflow.</p>
+                                <h2 class="title-large">Divine <span class="shape-mark">Daniel</span></h2>
+                                <p>I am a Full Stack Developer specialized in front-end and back-end development for scalable apps.</p>
 
                                 <a href="#" class="btn btn-xl btn-outline-one icon-space-left">Get Resume <i class="icofont-download"></i></a>
 
@@ -243,8 +56,9 @@
         </div>
         <!-- ...::: End Hero Section :::... -->
 
+
         <!-- ...::: Start Service Display Section :::... -->
-        <div class="service-display-section section-gap-tb-165 pos-relative">
+        <div id="services" class="service-display-section section-gap-tb-165 pos-relative">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -328,75 +142,7 @@
             <!-- End Service Section Wrapper -->
         </div>
         <!-- ...::: End Service Display Section :::... -->
-
-        <!-- ...::: Start Skill Display Section :::... -->
-        <div class="skill-display-section section-gap-tb-165 section-bg pos-relative">
-            <div class="skill-display-section-box">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-6 col-xxl-5">
-                            <!-- Start Section Content -->
-                            <div class="section-content">
-                                <span class="section-tag">Special Skills</span>
-                                <h2 class="section-title">My Special Skill Field Here.</h2>
-
-                                <a href="#" class="btn btn-xl btn-outline-one icon-space-left">Get Resume <i class="icofont-download"></i></a>
-                            </div>
-                            <!-- End Section Content -->
-                        </div>
-
-                        <div class="col-xl-6 col-xxl-6 offset-xxl-1">
-                            <!-- Start Skill Display Wrapper -->
-                            <div class="skill-display-wrapper">
-                                <!-- Start Skill Progress Single Item -->
-                                <div class="skill-progress-single-item">
-                                    <span class="tag">Communication</span>
-                                    <div class="skill-box">
-                                        <div class="progress-line" data-width="75">
-                                            <span class="skill-percentage">75%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ENd Skill Progress Single Item -->
-                                <!-- Start Skill Progress Single Item -->
-                                <div class="skill-progress-single-item">
-                                    <span class="tag">Leadership</span>
-                                    <div class="skill-box">
-                                        <div class="progress-line" data-width="70">
-                                            <span class="skill-percentage">70%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ENd Skill Progress Single Item -->
-                                <!-- Start Skill Progress Single Item -->
-                                <div class="skill-progress-single-item">
-                                    <span class="tag">Teamwork</span>
-                                    <div class="skill-box">
-                                        <div class="progress-line" data-width="90">
-                                            <span class="skill-percentage">90%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ENd Skill Progress Single Item -->
-                                <!-- Start Skill Progress Single Item -->
-                                <div class="skill-progress-single-item">
-                                    <span class="tag">Flexibility</span>
-                                    <div class="skill-box">
-                                        <div class="progress-line" data-width="80">
-                                            <span class="skill-percentage">80%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ENd Skill Progress Single Item -->
-                            </div>
-                            <!-- End Skill Display Wrapper -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="skill-display-shape"></div>
-        </div>
-        <!-- ...::: End Skill Display Section :::... -->
+        
 
         <!-- ...::: Start Counter Display Section :::... -->
         <div class="counter-display-section section-gap-tb-165 section-bg-2">
@@ -448,8 +194,9 @@
         </div>
         <!-- ...::: End Counter Display Section :::... -->
 
+
         <!-- ...::: Start Project Display Section :::... -->
-        <div class="project-display-section section-gap-tb-165">
+        <div id="works" class="project-display-section section-gap-tb-165">
             <div class="project-display-box">
                 <div class="container">
                     <div class="row">
@@ -487,7 +234,7 @@
                                         </div>
                                     </div>
                                     <div class="content">
-                                        <h4 class="title"><a href="project-details.html">Givest - Non Profit PSD Template</a></h4>
+                                        <h4 class="title"><a href="project-details.php">Givest - Non Profit PSD Template</a></h4>
 
                                         <ul class="catagory-nav-item">
                                             <li><a href="#">Chairty</a></li>
@@ -509,7 +256,7 @@
                                         </div>
                                     </div>
                                     <div class="content">
-                                        <h4 class="title"><a href="project-details.html">Musion - Gardening Website Template</a></h4>
+                                        <h4 class="title"><a href="project-details.php">Musion - Gardening Website Template</a></h4>
 
                                         <ul class="catagory-nav-item">
                                             <li><a href="#">Gardeining</a></li>
@@ -531,7 +278,7 @@
                                         </div>
                                     </div>
                                     <div class="content">
-                                        <h4 class="title"><a href="project-details.html">SEOLLY - SEO Marketing & Digital Agency</a></h4>
+                                        <h4 class="title"><a href="project-details.php">SEOLLY - SEO Marketing & Digital Agency</a></h4>
 
                                         <ul class="catagory-nav-item">
                                             <li><a href="#">Chairty</a></li>
@@ -553,7 +300,7 @@
                                         </div>
                                     </div>
                                     <div class="content">
-                                        <h4 class="title"><a href="project-details.html">Virtuf - Creative Agency Bootstrap 5 Template</a></h4>
+                                        <h4 class="title"><a href="project-details.php">Virtuf - Creative Agency Bootstrap 5 Template</a></h4>
 
                                         <ul class="catagory-nav-item">
                                             <li><a href="#">Gardeining</a></li>
@@ -572,8 +319,9 @@
         </div>
         <!-- ...::: End Project Display Section :::... -->
 
+
         <!-- ...::: Start Testimonial Display Section :::... -->
-        <div class="testimonial-display-section section-gap-tb-165 section-bg">
+        <div id="testimonial" class="testimonial-display-section section-gap-tb-165 section-bg">
             <div class="testimonial-display-box d-flex flex-column align-items-center d-xl-block pos-relative">
                 <div class="container overflow-hidden">
                     <div class="row">
@@ -684,285 +432,4 @@
             </div>
         </div>
         <!-- ...::: End Testimonial Display Section :::... -->
-
-        <!-- ...::: Start Company Logo Display Section :::... -->
-        <div class="company-logo-display section-mt-165 ">
-            <div class="company-logo-display-box">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <!-- Start Section Content -->
-                            <div class="section-content pos-relative">
-                                <span class="section-tag">Favourite Clients</span>
-                                <h2 class="section-title">Work With Trusted Comapny.</h2>
-                            </div>
-                            <!-- End Section Content -->
-                        </div>
-                    </div>
-
-                    <div class="company-logo-display-wrapper">
-                        <div class="row">
-                            <div class="col">
-                                <div class="company-logo-display-slider">
-                                    <!-- Slider main container -->
-                                    <div class="swiper-container">
-                                        <!-- Additional required wrapper -->
-                                        <div class="swiper-wrapper">
-                                            <!-- Start Company Logo Slider Single Item -->
-                                            <div class="company-logo-single-item swiper-slide">
-                                                <a href="#" class="image">
-                                                    <img src="assets/images/company-logo/company-logo-1.png" alt="">
-                                                    <img src="assets/images/company-logo/1.png" alt="">
-                                                </a>
-                                            </div>
-                                            <!-- End Company Logo Slider Single Item -->
-                                            <!-- Start Company Logo Slider Single Item -->
-                                            <div class="company-logo-single-item swiper-slide">
-                                                <a href="#" class="image">
-                                                    <img src="assets/images/company-logo/company-logo-2.png" alt="">
-                                                    <img src="assets/images/company-logo/2.png" alt="">
-                                                </a>
-                                            </div>
-                                            <!-- End Company Logo Slider Single Item -->
-                                            <!-- Start Company Logo Slider Single Item -->
-                                            <div class="company-logo-single-item swiper-slide">
-                                                <a href="#" class="image">
-                                                    <img src="assets/images/company-logo/company-logo-3.png" alt="">
-                                                    <img src="assets/images/company-logo/3.png" alt="">
-                                                </a>
-                                            </div>
-                                            <!-- End Company Logo Slider Single Item -->
-                                            <!-- Start Company Logo Slider Single Item -->
-                                            <div class="company-logo-single-item swiper-slide">
-                                                <a href="#" class="image">
-                                                    <img src="assets/images/company-logo/company-logo-4.png" alt="">
-                                                    <img src="assets/images/company-logo/4.png" alt="">
-                                                </a>
-                                            </div>
-                                            <!-- End Company Logo Slider Single Item -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ...::: End Company Logo Display Section :::... -->
-
-        <!-- ...::: Start Blog Feed Display Section :::... -->
-        <div class="blog-feed-display-section section-gap-tb-165">
-            <div class="blog-feed-display-box">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <!-- Start Section Content -->
-                            <div class="section-content pos-relative text-center">
-                                <span class="section-tag">Blog Post</span>
-                                <h2 class="section-title">Latest Tips & Tricks</h2>
-                            </div>
-                            <!-- End Section Content -->
-                        </div>
-                    </div>
-
-                    <div class="blog-feed-display-wrapper">
-                        <div class="row mb-n5">
-                            <div class="col-12 mb-5">
-                                <!-- Start Blog Feed Single Item -->
-                                <div class="blog-feed-single-item">
-                                    <div class="inner-shape inner-shape-top-right"></div>
-                                    <a href="blog-details-sidebar-left.html" class="image">
-                                        <img src="assets/images/blog/blog-feed-img-1.jpg" alt="">
-                                    </a>
-                                    <div class="content-box">
-                                        <div class="content">
-                                            <div class="post-meta">
-                                                <a href="#" class="catagory">Business</a>
-                                                <a href="#" class="date">07 February, 2021</a>
-                                            </div>
-                                            <h4 class="title"><a href="blog-details-sidebar-left.html">Don't wait until you officially started
-                                                    business to line these up.</a></h4>
-                                        </div>
-                                        <a href="blog-details-sidebar-left.html" class="btn btn-md btn-outline-one icon-space-left">Read More<i class="icofont-double-right"></i></a>
-                                    </div>
-
-                                </div>
-                                <!-- End Blog Feed Single Item -->
-                            </div>
-                            <div class="col-12 mb-5">
-                                <!-- Start Blog Feed Single Item -->
-                                <div class="blog-feed-single-item">
-                                    <div class="inner-shape inner-shape-top-right"></div>
-                                    <a href="blog-details-sidebar-left.html" class="image">
-                                        <img src="assets/images/blog/blog-feed-img-2.jpg" alt="">
-                                    </a>
-                                    <div class="content-box">
-                                        <div class="content">
-                                            <div class="post-meta">
-                                                <a href="#" class="catagory">Business</a>
-                                                <a href="#" class="date">07 February, 2021</a>
-                                            </div>
-                                            <h4 class="title"><a href="blog-details-sidebar-left.html">Don't wait until you officially started
-                                                    business to line these up.</a></h4>
-                                        </div>
-                                        <a href="blog-details-sidebar-left.html" class="btn btn-md btn-outline-one icon-space-left">Read More<i class="icofont-double-right"></i></a>
-                                    </div>
-
-                                </div>
-                                <!-- End Blog Feed Single Item -->
-                            </div>
-                            <div class="col-12 mb-5">
-                                <!-- Start Blog Feed Single Item -->
-                                <div class="blog-feed-single-item">
-                                    <div class="inner-shape inner-shape-top-right"></div>
-                                    <a href="blog-details-sidebar-left.html" class="image">
-                                        <img src="assets/images/blog/blog-feed-img-3.jpg" alt="">
-                                    </a>
-                                    <div class="content-box">
-                                        <div class="content">
-                                            <div class="post-meta">
-                                                <a href="#" class="catagory">Business</a>
-                                                <a href="#" class="date">07 February, 2021</a>
-                                            </div>
-                                            <h4 class="title"><a href="blog-details-sidebar-left.html">Don't wait until you officially started
-                                                    business to line these up.</a></h4>
-                                        </div>
-                                        <a href="blog-details-sidebar-left.html" class="btn btn-md btn-outline-one icon-space-left">Read More<i class="icofont-double-right"></i></a>
-                                    </div>
-
-                                </div>
-                                <!-- End Blog Feed Single Item -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ...::: End Blog Feed Display Section :::... -->
-
-        <!-- ...::: Start Footer Section :::... -->
-        <footer class="footer-section section-bg overflow-hidden pos-relative">
-            <div class="footer-inner-shape-top-left"></div>
-            <div class="footer-inner-shape-top-right"></div>
-            <div class="footer-section-top section-gap-t-165">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <!-- Start Section Content -->
-                            <div class="section-content pos-relative text-center">
-                                <span class="section-tag">Get Latest Updates</span>
-                                <h2 class="section-title">Subscribe For Newsletter</h2>
-                            </div>
-                            <!-- End Section Content -->
-                        </div>
-                    </div>
-                    <div class="footer-top-wrapper text-center">
-                        <div class="row">
-                            <div class="col-12">
-                                <form action="#" class="footer-newsletter">
-                                    <input type="email" placeholder="demo@example.com">
-                                    <button class="submit-btn" type="submit">Subscribe Now</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-center section-gap-tb-165">
-                <div class="container">
-                    <div class="row justify-content-between align-items-center mb-n5">
-                        <div class="col-auto mb-5">
-                            <!-- Start Single Footer Info -->
-                            <div class="footer-single-info">
-                                <a href="tel:+0123456789" class="info-box">
-                                    <span class="icon"><i class="icofont-phone"></i></span>
-                                    <span class="text">0123456789</span>
-                                </a>
-                            </div>
-                            <!-- Start Single Footer Info -->
-                        </div>
-                        <div class="col-auto mb-5">
-                            <!-- Start Single Footer Info -->
-                            <div class="footer-single-info">
-                                <a href="mailto:demo@example.com" class="info-box">
-                                    <span class="icon"><i class="icofont-envelope-open"></i></span>
-                                    <span class="text">demo@example.com</span>
-                                </a>
-                            </div>
-                            <!-- Start Single Footer Info -->
-                        </div>
-                        <div class="col-auto mb-5">
-                            <!-- Start Single Footer Info -->
-                            <div class="footer-single-info">
-                                <ul class="social-link">
-                                    <li><a href="https://www.example.com/" target="_blank"><i class="icofont-facebook"></i></a></li>
-                                    <li><a href="https://www.example.com/" target="_blank"><i class="icofont-dribbble"></i></a></li>
-                                    <li><a href="https://www.example.com/" target="_blank"><i class="icofont-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <!-- Start Single Footer Info -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="row justify-content-center justify-content-md-between align-items-center flex-column-reverse flex-md-row">
-                        <div class="col-auto">
-                            <div class="footer-copyright">
-                                <p class="copyright-text">&copy; 2021 <a href="index.html">Lendex</a> Made with <i class="icofont-heart"></i> by <a href="https://hasthemes.com/" target="_blank">HasThemes</a> </p>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <a href="index.html" class="footer-logo">
-                                <div class="logo">
-                                    <img src="assets/images/logo/logo.png" alt="">
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- ...::: End Footer Section :::... -->
-
-        <!-- material-scrolltop button -->
-    <button class="material-scrolltop" type="button"></button>
-    </main>
-
-    <!-- Global Vendor, plugins JS -->
-
-    <!-- JS Files
-    ============================================ -->
-    <!-- Global Vendor, plugins JS -->
-
-    <!-- Vendor JS -->
-    <!-- <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script> -->
-    
-    <!--Plugins JS-->
-    <!-- <script src="assets/js/plugins/swiper-bundle.min.js"></script>
-    <script src="assets/js/plugins/jquery.appear.min.js"></script>
-    <script src="assets/js/plugins/venobox.min.js"></script>
-    <script src="assets/js/plugins/jquery.waypoints.js"></script>
-    <script src="assets/js/plugins/images-loaded.min.js"></script>
-    <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
-    <script src="assets/js/plugins/counter.js"></script>
-    <script src="assets/js/plugins/ajax-mail.js"></script>
-    <script src="assets/js/plugins/material-scrolltop.js"></script> -->
-
-    <!-- Minify Version -->
-    <script src="assets/js/vendor.min.js"></script>
-    <script src="assets/js/plugins.min.js"></script>
-
-    <!--Main JS (Common Activation Codes)-->
-    <script src="assets/js/main.js"></script>
-
-</body>
-
-
-<!-- Mirrored from htmldemo.net/lendex/lendex/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Aug 2025 14:11:45 GMT -->
-</html>
+        
